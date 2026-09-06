@@ -1,2 +1,2 @@
-# new-repo
+# les lolitas
 Un nuevo repositorio
