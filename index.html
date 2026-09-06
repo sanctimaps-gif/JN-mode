@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JN Mode — Prêt-à-porter féminin à Rouen</title>
+  <meta name="description" content="JN Mode, boutique de prêt-à-porter pour femme au 86 rue Jeanne d'Arc à Rouen. Robes, hauts, bas, vestes, chaussures, sacs, bijoux fantaisie et accessoires." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231c1a18'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='52' fill='%23c8a86b' text-anchor='middle'%3EJN%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <!-- ============ BANDEAU HAUT ============ -->
+  <div class="topbar">
+    <div class="wrap topbar__in">
+      <p class="topbar__item" data-bind="topAddress"></p>
+      <p class="topbar__item topbar__status" data-bind="topStatus"></p>
+      <div class="topbar__right">
+        <a class="topbar__item" data-bind="topPhone" href="#"></a>
+        <a class="topbar__ig" data-bind="topInsta" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.41.55.22.95.48 1.36.89.41.41.67.81.89 1.36.16.4.36 1 .41 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.41 2.2-.22.55-.48.95-.89 1.36-.41.41-.81.67-1.36.89-.4.16-1 .36-2.2.41-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.41a3.7 3.7 0 0 1-1.36-.89 3.7 3.7 0 0 1-.89-1.36c-.16-.4-.36-1-.41-2.2C2.21 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.41-2.2.22-.55.48-.95.89-1.36.41-.41.81-.67 1.36-.89.4-.16 1-.36 2.2-.41C8.4 2.21 8.8 2.2 12 2.2m0 2.16c-3.14 0-3.51.01-4.75.07-1.15.05-1.77.24-2.18.4-.55.22-.94.47-1.35.88-.41.41-.66.8-.88 1.35-.16.41-.35 1.03-.4 2.18-.06 1.24-.07 1.61-.07 4.75s.01 3.51.07 4.75c.05 1.15.24 1.77.4 2.18.22.55.47.94.88 1.35.41.41.8.66 1.35.88.41.16 1.03.35 2.18.4 1.24.06 1.61.07 4.75.07s3.51-.01 4.75-.07c1.15-.05 1.77-.24 2.18-.4.55-.22.94-.47 1.35-.88.41-.41.66-.8.88-1.35.16-.41.35-1.03.4-2.18.06-1.24.07-1.61.07-4.75s-.01-3.51-.07-4.75c-.05-1.15-.24-1.77-.4-2.18a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.18-.4-1.24-.06-1.61-.07-4.75-.07Zm0 3.68a5.96 5.96 0 1 1 0 11.92 5.96 5.96 0 0 1 0-11.92Zm0 2.16a3.8 3.8 0 1 0 0 7.6 3.8 3.8 0 0 0 0-7.6Zm6.2-3.83a1.39 1.39 0 1 1 0 2.78 1.39 1.39 0 0 1 0-2.78Z"/></svg>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ EN-TÊTE ============ -->
+  <header class="masthead">
+    <div class="wrap masthead__in">
+      <button class="burger" id="burger" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a class="brand" href="#/" aria-label="Accueil JN Mode">
+        <span class="brand__logo" data-bind="logo"></span>
+        <span class="brand__txt">
+          <span class="brand__name" data-bind="shopName">JN Mode</span>
+          <span class="brand__tag" data-bind="shopTagline"></span>
+        </span>
+      </a>
+
+      <div class="masthead__tools">
+        <form class="search" id="searchForm" role="search">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" d="M10.5 3a7.5 7.5 0 1 1 0 15 7.5 7.5 0 0 1 0-15Zm10.5 18-5.2-5.2"/></svg>
+          <input type="search" id="searchInput" placeholder="Rechercher un article, une marque…" aria-label="Rechercher" />
+        </form>
+        <a class="btn btn--ghost btn--admin" href="#/admin">
+          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.7" d="M12 14a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm-8 7a8 8 0 0 1 16 0"/></svg>
+          <span>Espace gérante</span>
+        </a>
+      </div>
+    </div>
+
+    <nav class="mainnav" id="mainnav" aria-label="Catégories principales">
+      <div class="wrap mainnav__in" data-bind="mainnav"></div>
+    </nav>
+  </header>
+
+  <!-- ============ CORPS ============ -->
+  <div class="wrap layout">
+    <main id="main" class="content" data-bind="view"></main>
+
+    <!-- Dépliant des catégories (colonne de droite, rétractable) -->
+    <aside class="sidebar" id="sidebar" aria-label="Toutes les catégories">
+      <div class="sidebar__head">
+        <h2>Nos rayons</h2>
+        <button class="sidebar__all" id="collapseAll" type="button">Tout replier</button>
+      </div>
+      <nav class="tree" data-bind="tree"></nav>
+
+      <div class="sidebar__card">
+        <h3>Horaires</h3>
+        <ul class="hours" data-bind="hoursMini"></ul>
+      </div>
+
+      <div class="sidebar__card sidebar__card--dark">
+        <h3>Venir à la boutique</h3>
+        <p data-bind="asideAddress"></p>
+        <a class="btn btn--gold btn--sm" href="#/acces">Voir tous les plans d'accès</a>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ============ PIED DE PAGE ============ -->
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <div class="footer__col">
+        <p class="footer__brand" data-bind="footName">JN Mode</p>
+        <p class="footer__txt" data-bind="footAbout"></p>
+        <a class="footer__ig" data-bind="footInsta" href="#" target="_blank" rel="noopener">Suivre la boutique sur Instagram</a>
+      </div>
+      <div class="footer__col">
+        <h4>La boutique</h4>
+        <p data-bind="footAddress"></p>
+        <p><a data-bind="footPhone" href="#"></a></p>
+        <ul class="hours" data-bind="footHours"></ul>
+      </div>
+      <div class="footer__col">
+        <h4>Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="#/">Accueil</a></li>
+          <li><a href="#/nouveautes">Nouveautés</a></li>
+          <li><a href="#/acces">Plans d'accès</a></li>
+          <li><a href="#/boutique">La maison JN Mode</a></li>
+          <li><a href="#/admin">Espace gérante</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Encart créateur du site -->
+    <div class="credit">
+      <div class="wrap credit__in">
+        <p>
+          <strong>Vous aimez ce site&nbsp;?</strong>
+          Il a été imaginé et développé sur mesure pour les commerces de proximité.
+          Pour contacter le créateur du site, il suffit d'envoyer un mail à
+          <a href="mailto:Sanctimaps@gmail.com">Sanctimaps@gmail.com</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="wrap legal">
+      <p>© <span data-bind="year"></span> <span data-bind="legalName">JN Mode</span> — Tous droits réservés.</p>
+      <p><a href="#/mentions">Mentions légales</a></p>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/media.js"></script>
+  <script src="assets/js/seed.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/views.js"></script>
+  <script src="assets/js/admin.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
