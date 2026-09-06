@@ -1,2 +1,2 @@
-# les lolitas
+# JN mode
 Un nuevo repositorio
